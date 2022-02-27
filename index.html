@@ -17,7 +17,13 @@
     <section class="container">
       <form action="">
         <i class="bx bx-search"></i>
-        <input type="text" id="search-item" placeholder="Search Products" />
+        <input
+          type="text"
+          spellcheck="false"
+          id="search-item"
+          placeholder="Search Products"
+          onkeyup="search()"
+        />
       </form>
 
       <div class="product-list">
